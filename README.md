@@ -3,3 +3,5 @@ Bele halimar uituan ho `git`.
 
 Ho `git` ita bele kontrola ita nia source code.
 Kode bel pe.
+
+Haumutuk ita desenvolve django
