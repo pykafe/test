@@ -6,3 +6,4 @@ Kode bel pe.
 
 Haumutuk ita desenvolve django
 Mai ita servisu hamutuk uza GIT
+Boa Tarde ba Ita Hotu.
