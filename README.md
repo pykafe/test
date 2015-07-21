@@ -9,3 +9,6 @@ Kode bel pe.
 * Boa Tarde ba Ita Hotu.
 Obrigadu tanba ohin hau bele aprende tan GIT, liu husi GIT ita bele kolabora hamutuk iha ita nia prejotu kik iha django
 
+*Boatarde ba ita hotu ne'ebe hakarak Desenvolve python
+*Boaterde ba pykafe.com
+
