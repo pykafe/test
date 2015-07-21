@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block title %} {{user}} nia kontas sira {%endblock %}
+
+
+
+{% block content %}
+<table border="1px">
+	
+	<tr>
+	{% if is_authenticated %}
+		<tr><td>No</td><td>Account:</td></tr>
+	{% for account in accounts %}
+		<tr><td>{{id}}</td><td>{{account}}</td></tr>
+	{% endfor%}
+	{% else %}
+	
+		<p>You must log in to see your account</p>
+	{% endif %}
+
+	</tr>
+	
+</table>
+{% endblock %}
+

@@ -1,0 +1,429 @@
+<!DOCTYPE html >
+
+<html>
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="shortcut icon" href="/static/images/logo hadezta.png">
+<title>{% block title %} Your Account{% endblock %}</title>
+
+   <!--SCRIPTS-->
+        
+       <link href="/static/css/style.css" rel="stylesheet" type="text/css" title="default">
+<link href="/static/css/mq.css" rel="stylesheet" type="text/css" title="default">
+ <script src="/static/js/ga.js" async="" type="text/javascript"></script>
+<script src="/static/js/modernizr.js"></script>
+<script src="/static/js/jquery.js" async="" type="text/javascript"></script>
+<script src="/static/js/main-min.js" async="" type="text/javascript"></script>
+<script src="/static/js/modernizr.js" async="" type="text/javascript"></script>
+
+		
+		
+        
+
+</head>
+	<body>
+	<!-- Header elements -->
+        <header class="main-header" role="banner">
+            <div class="container">
+
+                <h1 class="site-headline">
+                    <a href="https://www.python.org/"><img class="python-logo" src="/static/images/catalpa_logo.png" alt="python™"></a>
+                </h1>
+
+                <div class="options-bar do-not-print">
+
+                    
+                    <a id="site-map-link" class="jump-to-menu" href="#site-map"><span class="menu-icon">≡</span> Menu</a><form class="search-the-site" action="/search/" method="get">
+                        <fieldset title="Search Python.org">
+
+                            <span aria-hidden="true" class="icon-search"></span>
+
+                            <label class="screen-reader-text" for="id-search-field">Search This Site</label>
+                            <input id="id-search-field" name="q" role="textbox" class="search-field placeholder" placeholder="Search" value="Search" tabindex="1" type="search">
+
+                            <button type="submit" name="submit" id="submit" class="search-button" title="Submit this Search" tabindex="3">
+                                GO
+                            </button>
+
+                            
+                            <!--[if IE]><input type="text" style="display: none;" disabled="disabled" size="1" tabindex="4"><![endif]-->
+
+                        </fieldset>
+                    </form><span class="breaker"></span><div class="adjust-font-size" aria-hidden="true">
+                        <ul class="navigation menu" aria-label="Adjust Text Size on Page">
+                            <li class="tier-1 last" aria-haspopup="true">
+                                <a href="#" class="action-trigger"><strong><small>A</small> A</strong></a>
+                                <ul class="subnav menu">
+                                    <li class="tier-2 element-1" role="treeitem"><a class="text-shrink" title="Make Text Smaller" href="javascript:;">Smaller</a></li>
+                                    <li class="tier-2 element-2" role="treeitem"><a class="text-grow" title="Make Text Larger" href="javascript:;">Larger</a></li>
+                                    <li class="tier-2 element-3" role="treeitem"><a class="text-reset" title="Reset any font size changes I have made" href="javascript:;">Reset</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div><div class="winkwink-nudgenudge">
+                        <ul class="navigation menu" aria-label="Social Media Navigation">
+                            <li class="tier-1 last" aria-haspopup="true">
+                                <a href="#" class="action-trigger">Socialize</a>
+                                <ul class="subnav menu">
+                                    <li class="tier-2 element-1" role="treeitem"><a href="http://plus.google.com/+Python"><span aria-hidden="true" class="icon-google-plus"></span>Google+</a></li>
+                                    <li class="tier-2 element-2" role="treeitem"><a href="http://www.facebook.com/pythonlang?fref=ts"><span aria-hidden="true" class="icon-facebook"></span>Facebook</a></li>
+                                    <li class="tier-2 element-3" role="treeitem"><a href="http://twitter.com/ThePSF"><span aria-hidden="true" class="icon-twitter"></span>Twitter</a></li>
+                                    <li class="tier-2 element-4" role="treeitem"><a href="https://www.python.org/community/irc/"><span aria-hidden="true" class="icon-freenode"></span>Chat on IRC</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div><div class="account-signin">
+                        <ul class="navigation menu" aria-label="Social Media Navigation">
+                            <li class="tier-1 last" aria-haspopup="true">
+                                
+                                <a href="https://www.python.org/accounts/login/" title="Sign Up or Sign In to Python.org">Sign In</a>
+                                <ul class="subnav menu">
+                                    <li class="tier-2 element-1" role="treeitem"><a href="https://www.python.org/accounts/signup/">Sign Up / Register</a></li>
+                                    <li class="tier-2 element-2" role="treeitem"><a href="https://www.python.org/accounts/login/">Sign In</a></li>
+                                </ul>
+                                
+                            </li>
+                        </ul>
+                    </div>
+
+                </div><!-- end options-bar -->
+
+<nav id="mainnav" class="python-navigation main-navigation do-not-print" role="navigation">
+                    
+                        
+<ul class="navigation menu" role="menubar" aria-label="Main Navigation">
+  
+    
+    
+    <li id="about" class="tier-1 element-1   with-supernav" aria-haspopup="true">
+        <a href="/visao/" title="" class="">Misaun no Visaun</a>
+        
+            
+
+<ul class="subnav menu" role="menu" aria-hidden="true">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="https://www.python.org/about/apps/" title="">Applications</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="https://www.python.org/about/quotes/" title="">Quotes</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="https://www.python.org/about/gettingstarted/" title="">Getting Started</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="https://www.python.org/about/help/" title="">Help</a></li>
+    
+
+                            <li class="tier-2 super-navigation">
+                                <h4>Python is a programming language that lets you work more quickly and integrate your systems more effectively.</h4>
+                                <p>You can learn to use Python and see almost immediate gains in productivity and lower maintenance costs.  <a href="https://www.python.org/about">Learn more about Python.</a>.
+                            </p></li></ul>
+
+        
+    </li>
+    
+    
+    
+    <li id="downloads" class="tier-1 element-2   with-supernav" aria-haspopup="true">
+        <a href="https://www.python.org/downloads/" title="" class="">Downloads</a>
+        
+            
+
+<ul class="subnav menu" role="menu" aria-hidden="true">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="https://www.python.org/downloads/" title="">All releases</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="https://www.python.org/downloads/source/" title="">Source code</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="https://www.python.org/downloads/windows/" title="">Windows</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="https://www.python.org/downloads/mac-osx/" title="">Mac OS X</a></li>
+    
+        <li class="tier-2 element-5" role="treeitem"><a href="https://www.python.org/download/other/" title="">Other Platforms</a></li>
+    
+        <li class="tier-2 element-6" role="treeitem"><a href="https://docs.python.org/3/license.html" title="">License</a></li>
+    
+        <li class="tier-2 element-7" role="treeitem"><a href="https://www.python.org/download/alternatives" title="">Alternative Implementations</a></li>
+    
+<!-- download supernav from templates/downloads/supernav.html -->
+<li class="tier-2 super-navigation">
+    
+    <div class="download-os-mac-osx" style="display: none;">
+        
+        <h4>Download for Mac OS X</h4>
+        
+        <p>
+            <a class="button" href="https://www.python.org/ftp/python/3.4.3/python-3.4.3-macosx10.6.pkg">Python 3.4.3</a>
+            <a class="button" href="https://www.python.org/ftp/python/2.7.9/python-2.7.9-macosx10.6.pkg">Python 2.7.9</a>
+        </p>
+        <p>Not the OS you are looking for? Python can be used on 21 different operating systems and environments. <a href="https://www.python.org/downloads/">View the full list</a>.</p>
+    </div>
+    
+    <div class="download-os-source" style="">
+        
+        <h3>Python Source</h3>
+        
+        <p>
+            <a class="button" href="https://www.python.org/ftp/python/3.4.3/Python-3.4.3.tar.xz">Python 3.4.3</a>
+            <a class="button" href="https://www.python.org/ftp/python/2.7.9/Python-2.7.9.tar.xz">Python 2.7.9</a>
+        </p>
+        <p>Not the OS you are looking for? Python can be used on 21 different operating systems and environments. <a href="https://www.python.org/downloads/">View the full list</a>.</p>
+    </div>
+    
+    <div class="download-os-windows" style="display: none;">
+        
+        <h4>Download for Windows</h4>
+        
+        <p>
+            <a class="button" href="https://www.python.org/ftp/python/3.4.3/python-3.4.3.msi">Python 3.4.3</a>
+            <a class="button" href="https://www.python.org/ftp/python/2.7.9/python-2.7.9.msi">Python 2.7.9</a>
+        </p>
+        <p>Not the OS you are looking for? Python can be used on 21 different operating systems and environments. <a href="https://www.python.org/downloads/">View the full list</a>.</p>
+    </div>
+    
+    <div style="display: none;" class="download-unknown">
+        <h4>Download Python for Any OS</h4>
+        <p>Python can be used on 21 different operating systems and environments.</p>
+        <p>
+            <a class="button" href="https://www.python.org/downloads/operating-systems/">View the Full List</a>
+        </p>
+    </div>
+</li>
+</ul>
+
+        
+    </li>
+    
+    
+    
+    <li id="documentation" class="tier-1 element-3   with-supernav" aria-haspopup="true">
+        <a href="https://www.python.org/doc/" title="" class="">Documentation</a>
+        
+            
+
+<ul class="subnav menu" role="menu" aria-hidden="true">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="https://www.python.org/doc/" title="">Docs</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="https://www.python.org/doc/av" title="">Audio/Visual Talks</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="https://wiki.python.org/moin/BeginnersGuide" title="">Beginner's Guide</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="https://docs.python.org/devguide/" title="">Developer's Guide</a></li>
+    
+        <li class="tier-2 element-5" role="treeitem"><a href="https://docs.python.org/faq/" title="">FAQ</a></li>
+    
+        <li class="tier-2 element-6" role="treeitem"><a href="http://wiki.python.org/moin/Languages" title="">Non-English Docs</a></li>
+    
+        <li class="tier-2 element-7" role="treeitem"><a href="http://python.org/dev/peps/" title="">PEP Index</a></li>
+    
+        <li class="tier-2 element-8" role="treeitem"><a href="https://wiki.python.org/moin/PythonBooks" title="">Python Books</a></li>
+    
+                            <li class="tier-2 super-navigation">
+                                <h4>Python’s standard documentation: download, browse or watch a tutorial.</h4>
+                                <p>Get started below, or visit the <a href="https://www.python.org/doc/versions/">Documentation page to browse by version</a>. </p>
+                                <p class="download-buttons">
+                                    <a class="button" href="http://docs.python.org/3/">Python 3.x Docs</a> 
+                                    <a class="button" href="http://docs.python.org/2/">Python 2.x Docs</a>
+                                </p>
+                                <p>See also <a href="https://wiki.python.org/moin/Python2orPython3">Should I use Python 2 or 3</a>? </p>
+                            </li></ul>
+
+        
+    </li>
+    
+    
+    
+    <li id="community" class="tier-1 element-4   with-supernav" aria-haspopup="true">
+        <a href="https://www.python.org/community/" title="" class="">Community</a>
+        
+            
+
+<ul class="subnav menu" role="menu" aria-hidden="true">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="https://www.python.org/community/diversity/" title="">Diversity</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="https://www.python.org/community/irc/" title="">IRC</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="https://www.python.org/community/lists/" title="">Mailing Lists</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="https://www.python.org/community/workshops/" title="">Python Conferences</a></li>
+    
+        <li class="tier-2 element-5" role="treeitem"><a href="https://www.python.org/community/sigs/" title="">Special Interest Groups</a></li>
+    
+        <li class="tier-2 element-6" role="treeitem"><a href="https://wiki.python.org/moin/" title="">Python Wiki</a></li>
+    
+        <li class="tier-2 element-7" role="treeitem"><a href="https://www.python.org/community/logos/" title="">Python Logo</a></li>
+    
+        <li class="tier-2 element-8" role="treeitem"><a href="https://www.python.org/community/merchandise/" title="">Merchandise</a></li>
+    
+        <li class="tier-2 element-9" role="treeitem"><a href="https://www.python.org/community/awards" title="">Community Awards</a></li>
+    
+                            <li class="tier-2 super-navigation">
+                                <h4>The Python Community</h4>
+<p>Great software is supported by great people. Our user base is 
+enthusiastic, dedicated to encouraging use of the language, and 
+committed to being diverse and friendly.</p>
+
+<!--
+                                <p>Here are some events and groups in your area.</p>
+                                <ul class="menu">
+                                    <li><time datetime="">9/30<span class="say-no-more">/2012</span></time> <a href="#">Royal Python Society Meetup, Providence RI</a></li>
+                                    <li><time datetime="">10/4<span class="say-no-more">/2012</span></time> <a href="#">Python Users Group, Boston MA</a></li>
+                                    <li><time datetime="">10/5<span class="say-no-more">/2012</span></time> <a href="#">Python Enthusiasts, Cambridge MA</a></li>
+                            </ul>
+                            </li>--></li></ul>
+
+        
+    </li>
+    
+    
+    
+    <li id="success-stories" class="tier-1 element-5   with-supernav" aria-haspopup="true">
+        <a href="https://www.python.org/about/success/" title="success-stories" class="">Success Stories</a>
+        
+            
+
+<ul class="subnav menu" role="menu" aria-hidden="true">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="https://www.python.org/about/success/#arts" title="">Arts</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="https://www.python.org/about/success/#business" title="">Business</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="https://www.python.org/about/success/#education" title="">Education</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="https://www.python.org/about/success/#engineering" title="">Engineering</a></li>
+    
+        <li class="tier-2 element-5" role="treeitem"><a href="https://www.python.org/about/success/#government" title="">Government</a></li>
+    
+        <li class="tier-2 element-6" role="treeitem"><a href="https://www.python.org/about/success/#scientific" title="">Scientific</a></li>
+    
+        <li class="tier-2 element-7" role="treeitem"><a href="https://www.python.org/about/success/#software-development" title="">Software Development</a></li>
+    
+<!-- successstories supernav from templates/successstories/supernav.html -->
+       <li class="tier-2 super-navigation">
+            
+            <img src="Welcome%20to%20Python.org_files/Lucasfilm_logo.png" alt="Industrial Light &amp; Magic">
+            
+            <blockquote class="success-quote">
+                ILM runs a batch processing environment capable of 
+modeling, rendering and compositing tens of thousands of motion picture 
+frames per day. Thousands of machines running Linux, IRIX, Compaq Tru64,
+ OS X, Solaris, and Windows join together to provide a production 
+pipeline used by ~800 users daily. Speed of development is key, and 
+Python was a faster way to code (and re-code) the programs that control 
+this production pipeline.
+            </blockquote>
+            <p class="quote-by"><cite>Tim Fortenberry</cite>, <a href="http://www.ilm.com/">Industrial Light &amp; Magic</a></p>
+
+        </li></ul>
+
+        
+    </li>
+    
+    
+    
+    <li id="news" class="tier-1 element-6  " aria-haspopup="true">
+        <a href="https://www.python.org/blogs/" title="News from around the Python world" class="">News</a>
+        
+            
+
+<ul class="subnav menu" role="menu" aria-hidden="true">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="https://www.python.org/blogs/" title="Python Insider Blog Posts">Python News</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="http://planetpython.org/" title="Planet Python">Community News</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="http://pyfound.blogspot.com/" title="PSF Blog">PSF News</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="http://pycon.blogspot.com/" title="PyCon Blog">PyCon News</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    
+    
+    <li id="events" class="tier-1 element-7   with-supernav" aria-haspopup="true">
+        <a href="https://www.python.org/events/" title="" class="">Events</a>
+        
+            
+
+<ul class="subnav menu" role="menu" aria-hidden="true">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="https://www.python.org/events/python-events/" title="">Python Events</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="https://www.python.org/events/python-user-group/" title="">User Group Events</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="https://www.python.org/events/python-events/past/" title="">Python Events Archive</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="https://www.python.org/events/python-user-group/past/" title="">User Group Events Archive</a></li>
+    
+        <li class="tier-2 element-5" role="treeitem"><a href="https://wiki.python.org/moin/PythonEventsCalendar#Submitting_an_Event" title="">Submit an Event</a></li>
+    
+<li class="tier-2 super-navigation">Find events from the Python Community around the world!</li></ul>
+
+        
+    </li>
+    
+    
+    
+    
+  
+</ul>
+
+                    
+                </nav>
+  </div><!-- end .container -->
+        </header>
+
+
+<div class="container" >
+<div class="row" >
+<h1>Accounts:</h1>
+	{% block content %}
+	
+	{% endblock %}
+</div>
+</div>
+ <!-- Footer and social media list -->
+        <footer id="site-map" class="main-footer" role="contentinfo">
+            <div class="main-footer-links">
+                <div class="container">
+
+                    
+                    
+
+                </div><!-- end .container -->
+            </div> <!-- end .main-footer-links -->
+
+            <div class="site-base">
+                <div class="container">
+                    
+                    <ul class="footer-links navigation menu do-not-print" role="tree">
+                        <li class="tier-1 element-1"><a href="https://www.python.org/about/help/">Help &amp; <span class="say-no-more">General</span> Contact</a></li>
+                        <li class="tier-1 element-2"><a href="https://www.python.org/community/diversity/">Diversity <span class="say-no-more">Initiatives</span></a></li>
+                        <li class="tier-1 element-3"><a href="https://github.com/python/pythondotorg/issues">Submit Website Bug</a></li>
+                        <!--<li class="tier-1 element-3"><a href="#"><span class="say-no-more">Website</span> Colophon</a></li>-->
+                    </ul>
+
+                    <div class="copyright">
+                        <p><small>
+                            <span class="pre">Copyright ©2001-2015.</span>
+                            &nbsp;<span class="pre"><a href="https://www.python.org/psf-landing/">Python Software Foundation</a></span>
+                            &nbsp;<span class="pre"><a href="https://www.python.org/about/legal/">Legal Statements</a></span>
+                            &nbsp;<span class="pre"><a href="https://www.python.org/privacy/">Privacy Policy</a></span>
+                        </small></p>
+                    </div>
+
+                </div><!-- end .container -->
+            </div><!-- end .site-base -->
+
+        </footer>
+
+    </div><!-- end #touchnav-wrapper -->
+
+	</body>
+</html>
